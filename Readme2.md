@@ -44,7 +44,7 @@ Ademas, tomamos como referencia el menu lateral para una mejor visualización de
 De *platzi* nos gusto la forma en la que la pagina brinda rutas de aprendizaje definidas y como el usuario puede elegir una propia.
 
 
-##Paleta de Colores
+## Paleta de Colores
 La paleta de colores y la fuente fueron elegidas tomando en consideración la identidad corporativa del cliente y en armonia con la funcionalidad de la pagina.
 
 <ul>
@@ -58,7 +58,7 @@ La paleta de colores y la fuente fueron elegidas tomando en consideración la id
 
 <img src='./img/paletaproyecto.png'>
 
-##Fuentes:
+## Fuentes:
 <ul>
 <li>font-family: 'Inter', sans-serif</li>
 <li>font-family: 'Roboto', sans-serif</li>
