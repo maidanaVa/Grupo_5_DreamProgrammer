@@ -29,24 +29,36 @@ en que momento inicia el tema que esta interesado en ver, repasar o adelantar.
 5.- Actividades: Se ubica en la interface de cursos. En la seccion actividades vamos a poder practicar lo aprendido en los cursos realizados, de forma individual por curso o integrando varias tecnologias, siendo esta herramienta un
 complemento valioso en el aprendizaje del estudiantes y una guia para los docentes sobre los temas a reforzar.
 
-En el proceso de investigacion para la realizacion del wireframe consultamos diferentes web con la misma tematica del mismo, entre ellas podemos mencionar:
-*https://platzi.com/
-*https://www.sololearn.com/home
-*https://www.udemy.com/
-*https://www.educacionit.com/
+En el proceso de investigacion para la realizacion del wireframe consultamos diferentes web con la misma tematica, entre ellas podemos mencionar:
+
+<ul>
+<li>*https://platzi.com/</li>
+<li>*https://www.sololearn.com/home</li>
+<li>*https://www.udemy.com/</li>
+<li>*https://www.educacionit.com/</li>: 
+</ul>
+
+Tomamos como inspiracion *sololearn* y *educacionIt*  al momento de armar la sección cursos que mostrara cada lenguaje, queriamos que fuera claro y conciso, y que en una sola pantalla se pudieran ver todas las opciones.
+Elegimos *udemy* ya que una vez ingresado al curso la interface muestre el progreso por temario de forma que el estudiante pueda adelantar o retroceder los videos o actividades dependiendo de sus necesidades.
+Ademas, tomamos como referencia el menu lateral para una mejor visualización de todos los videos.
+De *platzi* nos gusto la forma en la que la pagina brinda rutas de aprendizaje definidas y como el usuario puede elegir una propia.
 
 
-
+##Paleta de Colores
 La paleta de colores y la fuente fueron elegidas tomando en consideración la identidad corporativa del cliente y en armonia con la funcionalidad de la pagina.
 
-#232340
-#D0090E
-#9712A4
-#551CA6
-#0F1026
+<ul>
+<li>#232340</li>
+<li>#D0090E</li>
+<li>#9712A4</li>
+<li>#551CA6</li>
+<li>#0F1026</li>
+
+</ul>
+
 <img src='./img/paletaproyecto.png'>
 
-Fuentes:
+##Fuentes:
 <ul>
 <li>font-family: 'Inter', sans-serif</li>
 <li>font-family: 'Roboto', sans-serif</li>
