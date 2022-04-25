@@ -37,10 +37,10 @@ complemento valioso en el aprendizaje del estudiantes y una guia para los docent
 En el proceso de investigacion para la realizacion del wireframe consultamos diferentes web con la misma tematica, entre ellas podemos mencionar:
 
 <ul>
-<li>*https://platzi.com/</li>
-<li>*https://www.sololearn.com/home</li>
-<li>*https://www.udemy.com/</li>
-<li>*https://www.educacionit.com/</li>: 
+<li>https://platzi.com/</li>
+<li>https://www.sololearn.com/home</li>
+<li>https://www.udemy.com/</li>
+<li>https://www.educacionit.com/</li>
 </ul>
 
 Tomamos como inspiracion *sololearn* y *educacionIt*  al momento de armar la sección cursos que mostrara cada lenguaje, queriamos que fuera claro y conciso, y que en una sola pantalla se pudieran ver todas las opciones.
