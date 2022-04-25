@@ -29,7 +29,7 @@ en que momento inicia el tema que esta interesado en ver, repasar o adelantar.
 5.- Actividades: Se ubica en la interface de cursos. En la seccion actividades vamos a poder practicar lo aprendido en los cursos realizados, de forma individual por curso o integrando varias tecnologias, siendo esta herramienta un
 complemento valioso en el aprendizaje del estudiantes y una guia para los docentes sobre los temas a reforzar.
 
-En el proceso de investiacion para la realizacion del wireframe consultamos diferentes web con la misma tematica del mismo, entre ellas podemos mencionar:
+En el proceso de investigacion para la realizacion del wireframe consultamos diferentes web con la misma tematica del mismo, entre ellas podemos mencionar:
 *https://platzi.com/
 *https://www.sololearn.com/home
 *https://www.udemy.com/
