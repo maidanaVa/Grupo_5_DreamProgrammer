@@ -34,3 +34,13 @@ En el proceso de investigacion para la realizacion del wireframe consultamos dif
 *https://www.sololearn.com/home
 *https://www.udemy.com/
 *https://www.educacionit.com/
+
+
+
+La paleta de colores y la fuente fueron elegidas tomando en consideración la identidad corporativa del cliente y en armonia con la funcionalidad de la pagina.
+
+#232340
+#D0090E
+#9712A4
+#551CA6
+#0F1026
