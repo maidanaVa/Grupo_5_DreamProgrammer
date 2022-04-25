@@ -45,3 +45,8 @@ La paleta de colores y la fuente fueron elegidas tomando en consideración la id
 #551CA6
 #0F1026
 <img src='./img/paletaproyecto.png'>
+
+Fuentes:
+font-family: 'Inter', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Rubik', sans-serif
