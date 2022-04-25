@@ -44,3 +44,4 @@ La paleta de colores y la fuente fueron elegidas tomando en consideración la id
 #9712A4
 #551CA6
 #0F1026
+<img src='./img/paletaproyecto.png'>
