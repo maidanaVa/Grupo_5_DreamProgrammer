@@ -70,5 +70,8 @@ La paleta de colores y la fuente fueron elegidas tomando en consideración la id
 <li>font-family: 'Rubik', sans-serif</li>
 </ul>
 
+## Jira:
+Para este proyecto, decidimos utilizar como metologia agile, SCRUM. Para este fin y mayor control de las actividades a realizar por sprint utilizamos la herramienta de gestion JIRA, donde separamos el proyecto en 4 sprints con sus diferentes requisitos asi tambien podemos monitorear el proceso de todos los integrantes y poder apoyarnos en la resolucion de los requerimientos.
+https://vam2.atlassian.net/jira/software/projects/PE5/boards/2/roadmap?selectedIssue=PE5-1
 
 
