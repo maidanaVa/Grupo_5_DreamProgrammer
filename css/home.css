@@ -1,0 +1,202 @@
+*{box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+body{
+    background-color:#0F1026 ;
+    display: flex;
+    flex-direction: column;
+    color: #CCCCD3;
+    font-family: 'Inter', sans-serif;
+}
+header{
+    width: 100%;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+.cajaLogo{
+ width: 400px;
+ height: 120px;
+
+
+}
+.logo{
+    width: 50%;
+    height: 100px;
+}
+nav{
+    width:300px;
+   height: 100px;
+    display: flex;
+   justify-content:center ;
+   align-items: center;
+   gap: 40px;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    
+}
+/*boton agregado*/
+button {
+    color: #090909;
+    padding: 0.7em 1.7em;
+    font-size: 13px;
+    border-radius: 0.5em;
+    background: #e8e8e8;
+    border: 1px solid #e8e8e8;
+    transition: all .1s;
+    height: 30px;
+    width: 100px;
+   }
+   
+   button:hover {
+    border: 1px solid white;
+   }
+   
+   button:active {
+    box-shadow: 4px 4px 12px #c5c5c5,
+                -4px -4px 12px #ffffff;
+   }
+  /*cierra boton*/
+
+  main{
+      display: flex;
+      flex-direction: column;
+     align-items: center;
+     gap: 40px;
+  }
+.sobreNosotros{
+    width:80%;
+    height: 300px;
+ display: flex;
+ flex-direction: column;
+ gap: 30px;
+ margin-top: 100px;
+ 
+
+}
+h1{
+    align-self: flex-start;
+}
+/*visualizacion de cursos abre*/
+.contCursos{
+    width: 70%;
+    height: 400px;
+  
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+   
+}
+.opciones{
+    width: 30%;
+    height: 150px;
+  
+    display: flex;
+  justify-content: center;
+}
+.ImgsCursos{
+    width: 50%;
+    height: 100%;
+}
+ /*visualizacion de cursos cierra*/
+
+/*experiencias dev abre */
+.experienciasDev{
+    width: 90%;
+    height: 361px;
+   
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
+.cajasExpe{
+    width:350px;
+    height: 320px;
+    border-radius: 45% 55% 34% 66% / 60% 39% 61% 40%  ;
+    background: linear-gradient(90deg, rgb(84, 15, 130) 0%, rgb(186, 0, 196) 100%);
+    display:flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-evenly;
+   text-align: center;
+   box-shadow: -1px 3px 67px 0px rgba(67, 67, 67, 0.65);
+   
+}
+.imgDev{
+    width: 40%;
+    height: 40%;
+    border-radius: 50%;
+   
+}
+.cajasExpe> p{
+  padding-bottom: 40px;
+}
+/*experiencias dev cierra */
+
+  /*footer abre*/
+  footer{
+      width: 100%;
+      height: 150px;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     
+     
+     background-color:#551CA6;
+  }
+  
+  .divsFooter{
+      width: 24%;
+      height: 120px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+  }
+  .divLogoFooter{
+    width: 24%;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .logoFooter{
+    width:150px;
+    height: 80px;
+}
+ .divRedes{
+    width: 24%;
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    
+ }
+ .cajitaR{
+     width: 30%;
+     height: 60%;
+display: flex;
+flex-direction: row;
+justify-content: center;
+
+ }
+  h5{
+      width:30%
+  }
+  ul{
+      width: 30%;
+      display: flex;
+      flex-direction: column;
+  }
