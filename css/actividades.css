@@ -1,7 +1,7 @@
 * {  Margin: 0;  padding: 0;  box-sizing: border-box; }
 
 /*Flex*/
-body, nav, #subNav, #upperRow, #lowerRow, #ejercicios, p{
+body, #subNav, #upperRow, #lowerRow, #ejercicios, p{
     display: flex;
     padding: 5px;
     border: 5px;
@@ -10,11 +10,14 @@ body, nav, #subNav, #upperRow, #lowerRow, #ejercicios, p{
 body, #subNav{
     flex-direction: column;
 }
-nav, #upperRow, #lowerRow{
+#upperRow, #lowerRow{
     flex-direction: row;
 }
 #upperRow{
     justify-content: space-between;
+}
+.language{
+    padding:5px;
 }
 #logo{
     width: 70px;
@@ -28,24 +31,18 @@ p{
     margin: 5px;
     background-color: blueviolet;
     flex-basis: 30%;
+    flex-grow: 1;
 }
 #ejercicios{
     display: flex;
     flex-wrap: wrap;
     font-size: x-large;
+    justify-content: center;
     background-color: brown;
     flex-grow: 1;
 }
 
-p{
-    padding: 15px;
-    border: 5px;
-    margin: 15px;
-}
 /*Colores para distinguir*/
-nav{
-    background-color: aquamarine;
-}
 #subNav{
     background-color: cadetblue;
 }
