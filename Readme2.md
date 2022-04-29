@@ -7,7 +7,7 @@ Dream Programmer es una pagina enfocada en organizar y educar sobre el mundo tec
 el proceso de elaboración de diferentes productos tecnológicos, además de ayudar en el crecimiento técnico de sus usuarios brindándoles diferentes perfiles a
 corde a sus funciones y deseos de formación.
 Nuestra web esta dividida en 5 secciones principal donde podran
-navegar y encontrar informacion relacionada a los cursos que se ofrecemos.
+navegar y encontrar informacion relacionada a los cursos que se ofrecen.
 A continuacion enumeramos y damos una breve descripcion de cada una de ellas:
 
 ## 1.-Home
