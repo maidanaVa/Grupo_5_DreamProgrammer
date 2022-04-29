@@ -47,23 +47,27 @@ body {
     justify-content:space-evenly;
 }
 
-iframe{
-    margin-top: 0px;
-    
-    
-}
+
 
 .tituloCurso{
     font-family: 'Inter', sans-serif;
     color: aliceblue;
     margin-top: 10px;
-    text-align: end;
-    margin-right: 15px;
+    text-align: center;
+   
+}
+
+iframe{
+    margin-top: 55px;
 }
 
 .cajaText{
-    width: 864px;
+    padding: 40px;
+display: flex;
+flex-direction: column;
+
     margin-top: 20px;
+    
     font-size: 20px;
 }
 
@@ -110,7 +114,7 @@ iframe{
 
   .btnPractica{
       width: 150px;
-      margin-top: 20px;
+      margin-top:10px;
   }
 
   .btnVideo{
@@ -119,8 +123,9 @@ iframe{
     
   }
 
-
-  
+.tituloCurso1{
+    display: none;
+}
 
 
 
@@ -169,10 +174,24 @@ iframe{
 
     iframe{
         width: 100%;
+        margin-top: 30px;
     }
 
     .cajaText{
         width: 100%;
+    }
+
+    .tituloCurso{
+        display: none;
+    }
+
+    .tituloCurso1{
+        display: inline-block;
+        font-family: 20px;
+        font-family: 'Inter', sans-serif;
+        margin-left: 10px;
+        margin-top: 25px;
+        
     }
     
 }
