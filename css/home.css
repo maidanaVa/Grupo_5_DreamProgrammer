@@ -9,38 +9,18 @@ body{
     color: #CCCCD3;
     font-family: 'Inter', sans-serif;
 }
+
 header{
-    width: 100%;
-   display: flex;
-   flex-direction: row;
-   justify-content: space-between;
+text-align: center;
 }
-.cajaLogo{
- width: 400px;
- height: 120px;
 
-
-}
 .logo{
-    width: 50%;
-    height: 100px;
-}
-nav{
-    width:300px;
-   height: 100px;
-    display: flex;
-   justify-content:center ;
-   align-items: center;
-   gap: 40px;
-}
-ul{
-    display: flex;
-    list-style: none;
-}
-a{
-    text-decoration: none;
+    height: 145px;
     
 }
+
+
+
 /*boton agregado*/
 button {
     color: #090909;
@@ -50,7 +30,7 @@ button {
     background: #e8e8e8;
     border: 1px solid #e8e8e8;
     transition: all .1s;
-    height: 30px;
+    height: 35px;
     width: 100px;
    }
    
@@ -200,3 +180,197 @@ justify-content: center;
       display: flex;
       flex-direction: column;
   }
+
+
+
+
+
+
+
+  nav {
+	width: 100%;
+	height: 65px;
+	background-color: white;
+	display: flex;
+	align-content: center;
+	box-shadow: 0 15px 25px 0 rgb(0,0,0,0.2),
+				0 -15px 25px 0 rgb(0,0,0,0.2)
+}
+
+@media (max-width: 600px) {
+
+	.hmbBoton {
+		position: absolute;
+		margin: 13px 0 0 10px;
+		width: 40px;
+		height: 40px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border-radius: 7px;
+	}
+
+
+	.hmbBoton:hover .lineOpen{
+		background-color: white;
+	}
+
+
+	.hmbBoton:hover .Cross{
+		background-color: white;
+	}
+
+	.line {
+		transition: 300ms;
+		border-radius: 3px;
+		margin-top: -22px;
+		width: 30px;
+		height: 5px;
+		background-color: #9712A4;
+		box-shadow: 0 10px 0 0 #9712A4,  0 20px 0 0 #9712A4;
+	}
+
+	.lineOpen {
+		transition: 100ms;
+		transform: rotate(45deg);
+		border-radius: 3px;
+		width: 30px;
+		height: 5px;
+		background-color: white;
+
+	}
+
+	.Cross {
+		display: none;
+		transition: 100ms;
+		transform: rotate(90deg);
+		border-radius: 3px;
+		width: 30px;
+		height: 5px;
+		background-color: white;
+	}
+
+	.menuMobile {
+		background-color: #9712A4;
+		border-radius:50%;
+		width: 400px;
+		height: 350px;
+		margin: -40px 0 0 -150px;
+		display: none;
+		justify-content: center;
+		text-align: center;
+		align-items: center;
+		z-index: 0;
+		box-shadow: 10px 10px 10px 0 rgb(0,0,0,0.2),
+					0 0 5px 5px rgb(0,0,0,0.15);
+	}
+
+	.menuMobile ul {
+		list-style: none;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-end;
+		margin: 0 -80px -100px 0;
+		}
+
+	.menuMobile li {
+		display: flex;
+		background-color: #9712A4;
+		background-image: transparent;
+		padding: 15px;
+		border-radius: 5px;
+		margin-bottom:20px;
+	}
+
+    .btnLogin a{
+        margin-bottom: 35px;
+       
+    }
+
+   
+
+	.menuMobile li:hover {
+		display: flex;
+		background-color: white;
+		padding: 10px;
+		border-radius: 5px;
+		margin-bottom: 30px;
+	}
+
+	.menuMobile li:hover a {
+		text-decoration: none;
+		user-select: none;
+		color: #9712A4;
+		font-size: 18px;
+	}
+
+	.menuMobile ul a {
+		text-decoration: none;
+		user-select: none;
+		color: black;
+		font-family: 'Mulish', sans-serif;
+	}
+
+	.menuWeb {
+		display: none;
+	}
+
+}
+
+@media (min-width: 600px) {
+
+	header {
+		transition: 500ms;
+		height: 150px;
+	}
+
+	.menuMobile {
+		display: none;
+	}
+
+	.menuMobile ul a {
+		display: none;
+	}
+
+	.menuWeb {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 50px;
+		width: 100%;
+		margin-top: 8px;
+	}
+
+	.menuWeb ul {
+		list-style: none;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		}
+
+	.menuWeb li {
+		transition: 500ms;
+		display: flex;
+		background-color: white;
+		padding: 10px;
+		border-radius: 5px;
+	}
+
+
+	.menuWeb li:hover {
+		transition: 500ms;
+		background-color: #9712A4;
+	}
+
+	.menuWeb li:hover a {
+		color: white;
+	}
+
+	.menuWeb ul a {
+		text-decoration: none;
+		user-select: none;
+		color: #9712A4;
+		font-family: 'Mulish', sans-serif;
+	}
+
+}
