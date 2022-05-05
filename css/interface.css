@@ -11,22 +11,11 @@
 #0F1026 */
 
 body {
-    background: linear-gradient(300deg,deepskyblue,darkviolet,#551CA6,#232340);
-    background-size: 180% 180%;
-    animation: gradient-animation 18s ease infinite;
+  background-color: white;
   }
   
-  @keyframes gradient-animation {
-    0% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
-  }
+
+
 
 
 .tituloInterface ul{
@@ -143,12 +132,13 @@ flex-direction: column;
   nav {
 	width: 100%;
 	height: 65px;
-	background-color: white;
+	background-color: blueviolet;
 	display: flex;
-	align-content: center;
+	
 	box-shadow: 0 15px 25px 0 rgb(0,0,0,0.2),
 				0 -15px 25px 0 rgb(0,0,0,0.2)
 }
+
 
 
 
@@ -228,8 +218,8 @@ flex-direction: column;
 		margin-top: -22px;
 		width: 30px;
 		height: 5px;
-		background-color: #9712A4;
-		box-shadow: 0 10px 0 0 #9712A4,  0 20px 0 0 #9712A4;
+		background-color: white;
+		box-shadow: 0 10px 0 0 white,  0 20px 0 0 white;
 	}
 
 	.lineOpen {
@@ -315,7 +305,14 @@ flex-direction: column;
 
 	.menuWeb {
 		display: none;
+
 	}
+    
+    .imgLogo{
+       display: none;
+       
+
+    }
 
 }
 
@@ -338,7 +335,7 @@ flex-direction: column;
 
 	.menuWeb {
 		display: flex;
-		justify-content: center;
+		justify-content: end;
 		align-items: center;
 		height: 50px;
 		width: 100%;
@@ -358,7 +355,10 @@ flex-direction: column;
 		background-color: white;
 		padding: 10px;
 		border-radius: 5px;
+       margin-right: 8px;
 	}
+
+  
 
 
 	.menuWeb li:hover {
@@ -376,6 +376,8 @@ flex-direction: column;
 		color: #9712A4;
 		font-family: 'Mulish', sans-serif;
 	}
+
+   
 
 }
 
@@ -477,3 +479,5 @@ flex-direction: column;
     transition: none;
     transition-delay: none;
    }
+
+
