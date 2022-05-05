@@ -40,7 +40,7 @@ body {
 
 .tituloCurso{
     font-family: 'Inter', sans-serif;
-    color: aliceblue;
+    color: black;
     margin-top: 10px;
     text-align: center;
    
@@ -299,7 +299,7 @@ flex-direction: column;
 	.menuMobile ul a {
 		text-decoration: none;
 		user-select: none;
-		color: black;
+		color: white;
 		font-family: 'Mulish', sans-serif;
 	}
 

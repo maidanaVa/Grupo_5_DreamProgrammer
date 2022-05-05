@@ -86,6 +86,11 @@ h1{
     gap: 50px;
 	margin-top: 80px;
 }
+
+.experiencias{
+
+}
+
 .cajasExpe{
     width:350px;
     height: 320px;
@@ -559,4 +564,6 @@ body{
 
 .textoCursos{
 	margin-top: 56px;
+	
 }
+
