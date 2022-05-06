@@ -1,0 +1,156 @@
+/*Display flex y separaciones*/
+body, main, #subNav, .itemBarra, .headerEjercicios, .ejercicio, aside, ul{
+    display: flex;
+    padding: 5px;
+    border: 5px;
+    margin: 5px;
+}
+/*direccion*/
+
+.headerEjercicios{
+    flex-direction: row;
+}
+
+/*alinear*/
+#subNav{
+    justify-content: flex-end;
+}
+.headerEjercicios, .ejercicio{
+    justify-content: space-between;
+    align-items: center;
+}
+.itemBarra{
+    align-items: center;
+}
+/*flex grow y basis*/
+main, section, #subNav, .headerEjercicios, .ejercicio{
+    flex-grow: 1;
+}
+aside{
+    flex-basis:10%;
+    margin-top: 92px;
+}
+
+/*tamaño de letra y objetos*/
+.icono{
+    width: 30px;
+    height: 30px;
+}
+.iconoBarra{
+    width: 20px;
+    height: 20px;
+}
+.titulo{
+    font-size: 30px;
+}
+.ejercicio{
+    font-size: larger;
+}
+/*padding, borders y margins*/
+
+.headerEjercicios .icono, ul li{
+    padding: 10px;
+    border: 5px;
+    margin: 5px;
+    border-radius: 30px;
+}
+
+.status{
+    padding: 5px;
+    border: 5px;
+    margin: 5px;
+    border-radius: 20px;
+}
+/*Hidden*/
+.noObligatorio{
+    visibility: hidden;
+}
+
+/*hover*/
+.headerEjercicios .icono:hover{
+    background-color: rgb(202, 177, 223);
+}
+
+li:hover, .itemBarra:hover{
+    border-radius: 5px;
+    background-color: rgb(202, 177, 223);;
+}
+/*(?).headerEjercicios, que muestre el mismo icono de .iconoTitulo con hover*/
+
+
+/*otras especificaciones de estilo*/
+body{
+    background-color: white;
+    /* background-color: rgb(200, 152, 245); */
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color:black;
+    padding: 5px;
+    border: 1px;
+    margin: 2px;
+}
+.headerEjercicios{
+    border-bottom:solid rgb(90, 90, 90);
+}
+.completado{
+    background-color: rgba(86, 173, 0, 0.581);
+}
+.pendiente{
+    background-color: rgba(0, 0, 255, 0.344);
+}
+.ejercicio{
+    border: 0.5px solid black;
+    background-color: rgb(202, 177, 223); 
+}
+.obligatorio{
+    position: relative;
+    bottom: 20px;
+    color:rgb(164, 0, 0);
+}
+/*sacar tambien el estilo de las etiquetas a*/
+
+
+/*Media queries*/
+
+/*media desktop y tablet*/
+@media (min-width: 481px){
+    body{
+        flex-direction: row-reverse;
+    }
+    aside, ul{
+        flex-direction: column;
+    }
+}
+/*media mobile*/
+@media (max-width: 480px) and (min-width: 320px){
+   aside{
+       width: 10px;
+       height: 10px;
+       overflow: hidden;
+    }
+}
+
+
+/*Colores para diferenciar
+#subNav{
+    background-color: blueviolet;
+}
+.itemBarra{
+    background-color: rgb(174, 162, 186);
+} 
+.headerEjercicios{
+    background-color: rgb(226, 43, 156);
+} 
+.ejercicio{
+    background-color: rgb(226, 137, 43);
+} 
+aside{
+    background-color: rgb(109, 75, 53);
+} 
+ul{
+    background-color: rgb(43, 180, 226);
+}*/
