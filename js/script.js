@@ -12,3 +12,5 @@ function openMenu() {
 		document.querySelector('.menuMobile').style.display = 'flex'
 	}
 }
+
+
