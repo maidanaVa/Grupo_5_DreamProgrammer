@@ -187,15 +187,7 @@ h1{
 	top:0px;
 	z-index: 6;
 }
-nav>.seo{
-    opacity: .2;
-    align-self: flex-start;
-    margin-left:10%;
-    margin-top: 1%;
-}
-nav>.seo2{
-    display: none;
-}
+
 @media (max-width: 600px) {
 
 	.hmbBoton {
