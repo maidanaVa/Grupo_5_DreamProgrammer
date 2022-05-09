@@ -166,7 +166,7 @@ flex-direction: column;
   nav {
 	width: 100%;
 	height: 65px;
-	background-color: #9712A4;
+	background-color: #551CA6;
 	display: flex;
 }
 
@@ -178,7 +178,7 @@ footer{
    flex-direction:column;
    margin-top: 70px;
    color:white;
-   background-color:#9712A4;
+   background-color:#551CA6;;
 }
 
 .padreFooter{

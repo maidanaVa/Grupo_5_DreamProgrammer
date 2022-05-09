@@ -73,6 +73,10 @@ main, #subNav, .itemBarra, .headerEjercicios, .ejercicio, aside, ul, #tituloCons
 .itemBarra, .cajaAsidePop{
     align-items: center;
 }
+.imgLogo{
+    position: relative;
+    bottom:7px;
+}
 
 /*flex grow y basis*/
 main, section, #subNav, .headerEjercicios, .ejercicio, #equisCerrarVentana{
