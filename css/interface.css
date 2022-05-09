@@ -168,11 +168,7 @@ flex-direction: column;
 	height: 65px;
 	background-color: #9712A4;
 	display: flex;
-	
-	
 }
-
-
 
 
 footer{
@@ -682,7 +678,7 @@ footer{
     flex-direction: row;
     justify-content: start;
     align-items: flex-start;
-    margin-left: 1%;
+    padding-left: 1%;
     margin-bottom: 10px;
   
 }
