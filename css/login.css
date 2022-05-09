@@ -7,8 +7,13 @@
 }
 
 body,
-input {
+input, a {
   font-family: "Poppins", sans-serif;
+}
+
+a{
+  color: white;
+  text-decoration: none;
 }
 
 .container {
