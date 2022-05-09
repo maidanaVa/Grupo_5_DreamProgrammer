@@ -34,12 +34,16 @@
     border-radius: 5px;
     flex-grow: 1;
     justify-content: center;
-    padding: 2px;
+    padding: 5px;
     border: 0.5px solid black;
     margin: 5px;
+    border-radius: 5px;
 }
 .asidePopUp{
     align-items: center;
+    padding: 5px;
+    margin: 15px;
+    border-radius: 5px;
 }
 /*CIERRA POP UP*/
 
