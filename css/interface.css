@@ -168,6 +168,9 @@ flex-direction: column;
 	height: 65px;
 	background-color: #551CA6;
 	display: flex;
+    position:sticky;
+    top:0px;
+    z-index: 19;
 }
 
 
