@@ -1,8 +1,4 @@
-
 /*POP UP*/
-#ventanaEmergente, #equisCerrarVentana, #opacidad, .asidePopUp{
-    display: flex;
-}
 #ventanaEmergente{
     /* background-color: rgb(220, 197, 197); */
     width: 95%;
@@ -10,7 +6,7 @@
     left: 1%;
     padding: 1px;
     border: 1px;
-    margin: 2%; 
+    margin: 2%;
     z-index: 3;
 } 
 /*position*/
@@ -33,12 +29,7 @@
     opacity: 0.5;
     background-color: rgb(29, 4, 27);
 }
-#ejercicioConsigna, #ventanaEmergente, .asidePopUp{
-    flex-direction: column;
-}
-
 .cajaAsidePop{
-    display: flex;
     width: 200px;
     border-radius: 5px;
     flex-grow: 1;
@@ -53,16 +44,24 @@
 /*CIERRA POP UP*/
 
 /*Display flex y separaciones*/
-body, main, #subNav, .itemBarra, .headerEjercicios, .ejercicio, aside, ul, #tituloConsigna, #deadlineNota, #ejercicioConsigna, .subCajaTarea{
+body, #ventanaEmergente, #equisCerrarVentana, #opacidad, .asidePopUp, .cajaAsidePop{
+    display: flex;
+}
+main, #subNav, .itemBarra, .headerEjercicios, .ejercicio, aside, ul, #tituloConsigna, #deadlineNota, #ejercicioConsigna, .subCajaTarea{
     display: flex;
     padding: 5px;
     border: 5px;
     margin: 5px;
 }
+
 /*direccion*/
 .headerEjercicios, .subCajaTarea{
     flex-direction: row;
 }
+#ejercicioConsigna, #ventanaEmergente, .asidePopUp{
+    flex-direction: column;
+}
+
 /*alinear*/
 #subNav{
     justify-content: flex-end;
@@ -74,6 +73,7 @@ body, main, #subNav, .itemBarra, .headerEjercicios, .ejercicio, aside, ul, #titu
 .itemBarra, .cajaAsidePop{
     align-items: center;
 }
+
 /*flex grow y basis*/
 main, section, #subNav, .headerEjercicios, .ejercicio, #equisCerrarVentana{
     flex-grow: 1;
@@ -82,6 +82,7 @@ aside{
     flex-basis:10%;
     margin-top: 92px;
 }
+
 /*tamaño de letra y objetos*/
 .icono{
     width: 30px;
@@ -100,6 +101,7 @@ aside{
 .subirArchivo{
     height: 50px;
 }
+
 /*padding, borders y margins*/
 .headerEjercicios .icono, ul li{
     padding: 10px;
@@ -126,13 +128,10 @@ aside{
 .headerEjercicios .icono:hover{
     background-color: rgb(202, 177, 223);
 }
-
 ul li:hover, .itemBarra:hover{
     border-radius: 5px;
     background-color: rgb(202, 177, 223);;
 }
-/*(?).headerEjercicios, que muestre el mismo icono de .iconoTitulo con hover*/
-
 
 /*otras especificaciones de estilo*/
 body, #ventanaEmergente{
@@ -151,6 +150,9 @@ a{
 .headerEjercicios, #ejercicioConsigna{
     border-bottom:solid rgb(90, 90, 90);
 }
+.asidePopUp{
+    box-shadow: 0 0 7px black;
+}
 .completado{
     background-color: rgba(86, 173, 0, 0.581);
 }
@@ -160,7 +162,7 @@ a{
 .ejercicio{
     border: 0.5px solid black;
     border-radius: 5px;
-    background-color: rgb(202, 177, 223); 
+    background-color: rgba(137, 43, 226, 0.518);
 }
 .obligatorio{
     position: relative;
@@ -175,9 +177,7 @@ a{
     color: white;
 }
 /*Media queries*/
-
-/*media desktop y tablet*/
-@media (min-width: 481px){
+@media (min-width: 481px){  /*media desktop y tablet*/
     #contenedorPrincipal{
         display: flex;
         flex-direction: row-reverse;
@@ -186,8 +186,7 @@ a{
         flex-direction: column;
     }
 }
-/*media mobile*/
-@media (max-width: 480px) and (min-width: 320px){
+@media (max-width: 480px) and (min-width: 320px){ /*media mobile*/
    aside, .extra{
        width: 1px;
        height: 1px;
@@ -203,12 +202,7 @@ a{
     }
 }
 
-/*Colores para diferenciar*/
-
-.asidePopUp{
-    box-shadow: 0 0 7px black;
-}
-/*
+/*Colores para diferenciar
 #subNav{
     background-color: blueviolet;
 }
