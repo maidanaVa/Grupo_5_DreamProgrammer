@@ -12,6 +12,35 @@
 <body>
     <main>
         <section>
+            <!--POP UP abre-->
+            <div id="opacidad"></div>
+            <div id="ventanaEmergente">
+                <input type="checkbox" id="cerrarVentana">
+                <label for="cerrarVentana" id="equisCerrarVentana" onclick="cerrarPopUp()">X</label>
+                <article id="ejercicioConsigna">
+                    <div id="tituloConsigna">
+                        <img src="https://cdn-icons-png.flaticon.com/512/3208/3208615.png" alt="icon de lista"
+                            class="icono">
+                        <p class="consigna">Formulario HTML</p>
+                    </div>
+                    <div id="deadlineNota">
+                        <p class="notaDeTarea">85/100</p>
+                        <p class="fechaDeEntrega">Fecha de entrega: 15 de mayo</p>
+                    </div>
+                </article>
+                <article class="infoTarea">
+                    <ol>
+                        <p>Crear un formulario en HTML que contenga los siguientes elementos:</p>
+                        <li>Check box</li>
+                        <li>Inputs de hora, fecha y semana</li>
+                        <li>Verificaciones</li>
+                    </ol>
+                </article>
+                <article class="asidePopUp">
+                    <p></p>
+                </article>
+            </div>
+            <!--POP UP cierra-->
             <!--Barra superior que te lleva a los cursos y a los ejercicios-->
             <article id="subNav">
                 <div class="itemBarra">
@@ -20,25 +49,29 @@
                 </div>
                 <div class="itemBarra">
                     <img src="https://cdn-icons-png.flaticon.com/512/888/888034.png" alt="" class="iconoBarra">
-                    <a href="https://drive.google.com/drive/folders/1G80-unMe-xEiS0R2oBDtWoRQXkTNBtPZ" target="_blank" rel="noopener noreferrer">Material teorico</a>
+                    <a href="https://drive.google.com/drive/folders/1G80-unMe-xEiS0R2oBDtWoRQXkTNBtPZ" target="_blank"
+                        rel="noopener noreferrer">Material teorico</a>
                 </div>
             </article>
-             <!--Ejercicios HTML-->
+            <!--Ejercicios HTML-->
             <article class="headerEjercicios">
                 <p class="titulo">HTML</p>
                 <!--IMG con el icono de tres puntos-->
-                <img src="https://cdn-icons-png.flaticon.com/512/512/512222.png" alt="icono de tres puntos" class="icono">
+                <img src="https://cdn-icons-png.flaticon.com/512/512/512222.png" alt="icono de tres puntos"
+                    class="icono">
             </article>
             <article class="ejercicio">
                 <!--IMG con el icono de tarea-->
                 <img src="https://cdn-icons-png.flaticon.com/512/3208/3208615.png" alt="icon de lista" class="icono">
-                <p class="consigna">Ejercitacion formularios HTML</p>
+                <input type="checkbox" id="abrirVentana" onclick="abrirPopUp()">
+                <label class="consigna" for="abrirVentana">Ejercitacion formularios HTML</label>
                 <p class="status completado">Entregado</p>
                 <p class="obligatorio">*</p>
             </article>
             <article class="ejercicio">
                 <img src="https://cdn-icons-png.flaticon.com/512/3208/3208615.png" alt="icon de lista" class="icono">
-                <p class="consigna">Ejercitacion formularios HTML</p>
+                <input type="checkbox" id="abrirVentana" onclick="abrirPopUp()">
+                <label class="consigna" for="abrirVentana">Ejercitacion formularios HTML</label>
                 <p class="status pendiente">Pendiente</p>
                 <p class="noObligatorio">*</p>
             </article>
@@ -51,7 +84,8 @@
             <!--Ejercicios CSS-->
             <article class="headerEjercicios">
                 <p class="titulo">CSS</p>
-                <img src="https://cdn-icons-png.flaticon.com/512/512/512222.png" alt="icono de tres puntos" class="icono">
+                <img src="https://cdn-icons-png.flaticon.com/512/512/512222.png" alt="icono de tres puntos"
+                    class="icono">
             </article>
             <article class="ejercicio">
                 <img src="https://cdn-icons-png.flaticon.com/512/3208/3208615.png" alt="icon de lista" class="icono">
@@ -83,10 +117,11 @@
                 <p class="status completado">Entregado</p>
                 <p class="noObligatorio">*</p>
             </article>
-             <!--Ejercicios JavaScript-->
-             <article class="headerEjercicios">
+            <!--Ejercicios JavaScript-->
+            <article class="headerEjercicios">
                 <p class="titulo">JavaScript</p>
-                <img src="https://cdn-icons-png.flaticon.com/512/512/512222.png" alt="icono de tres puntos" class="icono">
+                <img src="https://cdn-icons-png.flaticon.com/512/512/512222.png" alt="icono de tres puntos"
+                    class="icono">
             </article>
             <article class="ejercicio">
                 <img src="https://cdn-icons-png.flaticon.com/512/3208/3208615.png" alt="icon de lista" class="icono">
@@ -127,8 +162,9 @@
         </section>
     </main>
     <aside>
-        
-        <ul><p><b>Tecnologias</b></p>
+
+        <ul>
+            <p><b>Tecnologias</b></p>
             <li>HTML</li>
             <li>CSS</li>
             <li>JavaScript</li>
@@ -136,6 +172,7 @@
             <li>NodeJS</li>
         </ul>
     </aside>
+    <script src="../js/popUp.js"></script>
 </body>
 
 </html>
