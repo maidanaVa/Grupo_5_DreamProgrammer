@@ -382,6 +382,8 @@ h1{
 	.textExp{
 		
 		text-align: center;
+		font-size: 25px;
+		color: white;
 	}
 
 	.textoCursos{
@@ -655,7 +657,7 @@ body{
 .experiencias{
 	margin:80px;
 	text-align: center;
-	font-size: 28px;
+	font-size: 30px;
 	text-transform: uppercase;
 	color: white;
 }
