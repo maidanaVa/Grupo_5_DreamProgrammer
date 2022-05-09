@@ -7,9 +7,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../css/actividades.css">
+    <link rel="stylesheet" href="../css/interface.css">
 </head>
 
 <body>
+    <!--NAV abre-->
+    <nav>
+        <div class="menuMobile">
+            <ul>
+                <li><a href="#exp">Nosotros</a></li>
+                <li><a href="#comenzar">Cursos</a></li>
+                <li><a href="#">LOGIN</a></button></li>
+
+            </ul>
+        </div>
+        <div class="hmbBoton" onclick="openMenu()">
+            <div class="line">
+                <div class="Cross"></div>
+            </div>
+        </div>
+        <div class="menuWeb">
+            <ul>
+                <li><a href="#exp">Nosotros</a></li>
+                <li><a href="#comenzar">Cursos</a></li>
+                <li><a href="#">LOGIN</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div id="contenedorPrincipal">
     <main>
         <section>
             <!--POP UP abre-->
@@ -28,17 +53,21 @@
                         <p class="fechaDeEntrega">Fecha de entrega: 15 de mayo</p>
                     </div>
                 </article>
-                <article class="infoTarea">
-                    <ol>
-                        <p>Crear un formulario en HTML que contenga los siguientes elementos:</p>
-                        <li>Check box</li>
-                        <li>Inputs de hora, fecha y semana</li>
-                        <li>Verificaciones</li>
-                    </ol>
-                </article>
-                <article class="asidePopUp">
-                    <p></p>
-                </article>
+                <div class="subCajaTarea">
+                    <article class="infoTarea">
+                        <ol>
+                            <p>Crear un formulario en HTML que contenga los siguientes elementos:</p>
+                            <li>Check box</li>
+                            <li>Inputs de hora, fecha y semana</li>
+                            <li>Verificaciones</li>
+                        </ol>
+                    </article>
+                    <article class="asidePopUp">
+                        <p>Tu trabajo</p>
+                        <p class="cajaAsidePop subirArchivo">Subir archivo</p>
+                        <button class="cajaAsidePop entregarTarea">Entregar</button>
+                    </article>
+                </div>
             </div>
             <!--POP UP cierra-->
             <!--Barra superior que te lleva a los cursos y a los ejercicios-->
@@ -162,7 +191,6 @@
         </section>
     </main>
     <aside>
-
         <ul>
             <p><b>Tecnologias</b></p>
             <li>HTML</li>
@@ -172,7 +200,29 @@
             <li>NodeJS</li>
         </ul>
     </aside>
+</div>
+    <!--FOOTER abre-->
+    <footer>
+        <div class="padreFooter">
+            <img class="logoFooter" src="../img/Dream__1_-removebg-preview.png" alt="">
+            <div class="divRedes">
+                <div class="cajitaR"> <a href="https://es-la.facebook.com/arbustait/" target="_blank"
+                        rel="noopener noreferrer"><img height=50px src="/img/iconos/facebook.png" alt=""></a></div>
+                <div class="cajitaR"> <a href="http://https://www.instagram.com/arbustait/?hl=es" target="_blank"
+                        rel="noopener noreferrer"><img height=50px src="/img/iconos/instagram.png" alt=""></a></div>
+                <div class="cajitaR"> <a
+                        href="https://www.google.com.ar/maps/place/Arbusta+S.R.L/@-34.6346903,-58.4110297,17z/data=!3m1!4b1!4m5!3m4!1s0x95bccbcfc88bd661:0x8eb54bf5c6fcf1e!8m2!3d-34.6346903!4d-58.408841"
+                        target="_blank" rel="noopener noreferrer"><img height=47px src="/img/iconos/mapa-de-pines.png"
+                            alt=""></a></div>
+            </div>
+        </div>
+        <div class="divsFooter">
+            <p>Copyright © Dream Programmer-Arbusta</p>
+            <p><b> Políticas de Privacidad </b></p>
+        </div>
+    </footer>
     <script src="../js/popUp.js"></script>
+    <script src="../js/script.js"></script>
 </body>
 
 </html>

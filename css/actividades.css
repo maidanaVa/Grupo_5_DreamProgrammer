@@ -1,9 +1,10 @@
+
 /*POP UP*/
+#ventanaEmergente, #equisCerrarVentana, #opacidad, .asidePopUp{
+    display: flex;
+}
 #ventanaEmergente{
     /* background-color: rgb(220, 197, 197); */
-    display: flex;
-    flex-direction: column;
-    position: fixed;
     width: 95%;
     height: auto;
     left: 1%;
@@ -11,62 +12,70 @@
     border: 1px;
     margin: 2%; 
     z-index: 3;
-    display: none;
 } 
-#abrirVentana{
+/*position*/
+#cerrarVentana, #abrirVentana{
     position: absolute;
-    display: none;
 }
-#cerrarVentana{
-    position: absolute;
+#ventanaEmergente, #opacidad{
+    position: fixed;
 }
 #equisCerrarVentana{
-    display: flex;
     background-color: rgba(255, 255, 255, 0.755);
-    flex-grow: 1;
     justify-content: right;
     padding: 0 5px 0 0;
 }
 #opacidad{
-    display: flex;
-    position: fixed;
     top: 0px;
     left: 0px;
     width: 1532px;
     height: 100%;
     opacity: 0.5;
     background-color: rgb(29, 4, 27);
-    display: none;
 }
-#ejercicioConsigna{
+#ejercicioConsigna, #ventanaEmergente, .asidePopUp{
     flex-direction: column;
+}
+
+.cajaAsidePop{
+    display: flex;
+    width: 200px;
+    border-radius: 5px;
+    flex-grow: 1;
+    justify-content: center;
+    padding: 2px;
+    border: 0.5px solid black;
+    margin: 5px;
+}
+.asidePopUp{
+    align-items: center;
 }
 /*CIERRA POP UP*/
 
 /*Display flex y separaciones*/
-body, main, #subNav, .itemBarra, .headerEjercicios, .ejercicio, aside, ul, #tituloConsigna, #deadlineNota, #ejercicioConsigna{
+body, main, #subNav, .itemBarra, .headerEjercicios, .ejercicio, aside, ul, #tituloConsigna, #deadlineNota, #ejercicioConsigna, .subCajaTarea{
     display: flex;
     padding: 5px;
     border: 5px;
-    margin: 1px;
+    margin: 5px;
 }
 /*direccion*/
-.headerEjercicios{
+.headerEjercicios, .subCajaTarea{
     flex-direction: row;
 }
 /*alinear*/
 #subNav{
     justify-content: flex-end;
 }
-.headerEjercicios, .ejercicio, #deadlineNota{
+.headerEjercicios, .ejercicio, #deadlineNota, .subCajaTarea{
     justify-content: space-between;
     align-items: center;
 }
-.itemBarra{
+.itemBarra, .cajaAsidePop{
     align-items: center;
 }
 /*flex grow y basis*/
-main, section, #subNav, .headerEjercicios, .ejercicio{
+main, section, #subNav, .headerEjercicios, .ejercicio, #equisCerrarVentana{
     flex-grow: 1;
 }
 aside{
@@ -88,7 +97,9 @@ aside{
 .ejercicio{
     font-size: larger;
 }
-
+.subirArchivo{
+    height: 50px;
+}
 /*padding, borders y margins*/
 .headerEjercicios .icono, ul li{
     padding: 10px;
@@ -106,6 +117,9 @@ aside{
 /*Hidden*/
 .noObligatorio, #cerrarVentana{
     visibility: hidden;
+}
+#ventanaEmergente, #abrirVentana, #opacidad{
+    display: none;
 }
 
 /*hover*/
@@ -150,20 +164,25 @@ a{
 }
 .obligatorio{
     position: relative;
-    bottom: 20px;
+    bottom: 10px;
     color:rgb(164, 0, 0);
 }
 #equisCerrarVentana{
     background-color: rgba(255, 255, 255, 0.755);
 }
+.entregarTarea{
+    background-color: black;
+    color: white;
+}
 /*Media queries*/
 
 /*media desktop y tablet*/
 @media (min-width: 481px){
-    body{
+    #contenedorPrincipal{
+        display: flex;
         flex-direction: row-reverse;
     }
-    aside, ul{
+    aside, ul, body{
         flex-direction: column;
     }
 }
@@ -176,9 +195,20 @@ a{
        overflow: hidden;
        position: absolute;
     }
+    .subCajaTarea{
+        flex-direction: column;
+    }
+    body{
+        flex-direction: column;
+    }
 }
 
-/*Colores para diferenciar
+/*Colores para diferenciar*/
+
+.asidePopUp{
+    box-shadow: 0 0 7px black;
+}
+/*
 #subNav{
     background-color: blueviolet;
 }
@@ -196,4 +226,7 @@ aside{
 } 
 ul{
     background-color: rgb(43, 180, 226);
+}
+#contenedorPrincipal{
+    background-color: crimson;
 }*/
